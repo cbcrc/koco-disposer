@@ -1,0 +1,26 @@
+{
+  "name": "koco-disposer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cbcrc/koco-disposer",
+  "authors": [
+    "th3answer (vincent.maliko@cbc.ca)"
+  ],
+  "description": "knockout disposer",
+  "main": "disposer",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "koco",
+    "disposer",
+    "knockout"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

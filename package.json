@@ -1,22 +1,22 @@
 {
-    "name": "koco-disposer",
-    "version": "0.1.0",
-    "homepage": "https://github.com/cbcrc/koco-disposer",
-    "authors": [
-        "th3answer (vincent.maliko@cbc.ca)"
-    ],
-    "description": "knockout disposer",
-    "main": "src/disposer.js",
-    "keywords": [
-        "koco",
-        "disposer",
-        "knockout"
-    ],
-    "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "knockout": "^3.3.0"
-    }
+  "name": "koco-disposer",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cbcrc/koco-disposer",
+  "authors": [
+    "th3answer (vincent.maliko@cbc.ca)"
+  ],
+  "description": "knockout disposer",
+  "main": "src/disposer.js",
+  "keywords": [
+    "koco",
+    "disposer",
+    "knockout"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "knockout": "^3.3.0"
+  }
 }
